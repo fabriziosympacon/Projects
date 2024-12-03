@@ -1,0 +1,27 @@
+<mvc:View controllerName="prettyclip.prettyclip.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="Pretty Clip">
+    <VBox id="vbox" class="sapUiSmallMargin">
+    <HBox id="hbox">
+    <Button id="button1" text="Einfügen" press=".onPressButton1" type="Emphasized" class="sapUiSmallMargin"/>
+    <Button id="button2" text="Löschen" press=".onPressButton2" type="Emphasized" class="sapUiSmallMargin"/>
+    </HBox>
+    <TextArea id="textfield1" width="auto" rows="10"/>
+    <Text id="rbuttonTitle" text="Bitte wählen Sie das Trenn-Krennzeichen:"/>
+    <RadioButtonGroup id="radioGroup1" columns="1">
+    <RadioButton id="radio1" text="Option 1: ,"/>
+    <RadioButton id="radio2" text="Option 2: ."/>
+    <RadioButton id="radio3" text="Option 3: ;"/>
+    <RadioButton id="radio4" text="Option 4: Leerzeichen"/>
+    </RadioButtonGroup>
+    <Text id="zeichenTitle" text="Feste länge definieren (optional):"/>
+    <Input id="textfield3" class="sapUiSmallMargin" width="50px"/>
+    <HBox id="hbox2">
+    <Button id="button3" text="output" press=".onPressButton3" type="Emphasized" class="sapUiSmallMargin"/>
+    <Button id="button4" text="copy to clip" press=".onPressButton4" type="Emphasized" class="sapUiSmallMargin"/>
+    </HBox>
+    <TextArea id="textfield2" width="auto" rows="10"/>
+    </VBox>
+    </Page>
+</mvc:View>
