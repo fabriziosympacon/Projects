@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/bd1133ff-38a6-4e66-b5f6-ca1d1db98d05/resourceGroups/prettyclip/providers/Microsoft.Web/sites/PrettyClip",
+    "appService.deploySubpath": "."
+}
